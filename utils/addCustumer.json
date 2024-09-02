@@ -1,0 +1,136 @@
+
+
+{
+    "Name": "John Doe",
+    "IsActive": true,
+    "ClassRef": {
+      "ListID": "12345",
+      "FullName": "Class A"
+    },
+    "ParentRef": {
+      "ListID": "67890",
+      "FullName": "Parent Customer"
+    },
+    "CompanyName": "Doe Enterprises",
+    "Salutation": "Mr.",
+    "FirstName": "John",
+    "MiddleName": "M.",
+    "LastName": "Doe",
+    "JobTitle": "CEO",
+    "BillAddress": {
+      "Addr1": "123 Main St",
+      "Addr2": "Suite 100",
+      "City": "Portland",
+      "State": "OR",
+      "PostalCode": "97201",
+      "Country": "USA"
+    },
+    "ShipAddress": {
+      "Addr1": "456 Elm St",
+      "City": "Seattle",
+      "State": "WA",
+      "PostalCode": "98101",
+      "Country": "USA"
+    },
+    "ShipToAddress": [
+      {
+        "Name": "Warehouse 1",
+        "Addr1": "789 Oak St",
+        "City": "San Francisco",
+        "State": "CA",
+        "PostalCode": "94101",
+        "Country": "USA",
+        "DefaultShipTo": true
+      }
+    ],
+    "Phone": "555-1234",
+    "AltPhone": "555-5678",
+    "Fax": "555-9876",
+    "Email": "john.doe@company.com",
+    "Contact": "Jane Smith",
+    "AdditionalContactRef": [
+      {
+        "ContactName": "Support",
+        "ContactValue": "support@company.com"
+      }
+    ],
+    "Contacts": [
+      {
+        "Salutation": "Ms.",
+        "FirstName": "Jane",
+        "LastName": "Smith",
+        "JobTitle": "CFO",
+        "AdditionalContactRef": [
+          {
+            "ContactName": "Finance",
+            "ContactValue": "finance@company.com"
+          }
+        ]
+      }
+    ],
+    "CustomerTypeRef": {
+      "ListID": "90123",
+      "FullName": "Premium"
+    },
+    "TermsRef": {
+      "ListID": "321",
+      "FullName": "Net 30"
+    },
+    "SalesRepRef": {
+      "ListID": "654",
+      "FullName": "Sales Rep A"
+    },
+    "OpenBalance": 1000.00,
+    "OpenBalanceDate": "2024-08-21",
+    "SalesTaxCodeRef": {
+      "ListID": "111",
+      "FullName": "TaxCode"
+    },
+    "ItemSalesTaxRef": {
+      "ListID": "222",
+      "FullName": "ItemTax"
+    },
+    "SalesTaxCountry": "USA",
+    "ResaleNumber": "123456789",
+    "AccountNumber": "789456123",
+    "CreditLimit": 5000,
+    "PreferredPaymentMethodRef": {
+      "ListID": "333",
+      "FullName": "Credit Card"
+    },
+    "CreditCardInfo": {
+      "CreditCardNumber": "4111111111111111",
+      "ExpirationMonth": "12",
+      "ExpirationYear": "2025",
+      "NameOnCard": "John Doe",
+      "CreditCardAddress": "123 Main St",
+      "CreditCardPostalCode": "97201"
+    },
+    "JobStatus": "In Progress",
+    "JobStartDate": "2024-08-01",
+    "JobProjectedEndDate": "2024-12-31",
+    "JobEndDate": "2025-01-31",
+    "JobDesc": "New project description",
+    "JobTypeRef": {
+      "ListID": "444",
+      "FullName": "Job Type A"
+    },
+    "Notes": "Some additional notes",
+    "AdditionalNotes": [
+      {
+        "Note": "Extra information"
+      }
+    ],
+    "PreferredDeliveryMethod": "Email",
+    "PriceLevelRef": {
+      "ListID": "555",
+      "FullName": "Level A"
+    },
+    "ExternalGUID": "abcd1234",
+    "TaxRegistrationNumber": "TRN12345",
+    "CurrencyRef": {
+      "ListID": "666",
+      "FullName": "USD"
+    }
+  }
+  

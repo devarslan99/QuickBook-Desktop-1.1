@@ -1,0 +1,103 @@
+{
+  "ListID": "4B0000-1071523131",
+  "TimeCreated": "2003-12-16T02:18:51+05:00",
+  "TimeModified": "2025-12-15T12:38:22+05:00",
+  "EditSequence": 1765784302,
+  "Name": "Wilks, Daniel",
+  "FullName": "Wilks, Daniel",
+  "IsActive": true,
+  "Sublevel": 0,
+  "Salutation": "Mr.",
+  "FirstName": "Daniel",
+  "LastName": "Wilks",
+  "BillAddress": {
+    "Addr1": "Daniel Wilks",
+    "Addr2": "516 Hampshire Blvd",
+    "City": "East Bayshore",
+    "State": "CA",
+    "PostalCode": 94327
+  },
+  "ShipAddress": {
+    "Addr1": "Daniel Wilks",
+    "Addr2": "516 Hampshire Blvd",
+    "City": "East Bayshore",
+    "State": "CA",
+    "PostalCode": 94327
+  },
+  "ShipToAddress": [
+    {
+      "Name": "Ship To 1",
+      "Addr1": "Daniel Wilks",
+      "Addr2": "516 Hampshire Blvd",
+      "City": "East Bayshore",
+      "State": "CA",
+      "PostalCode": 94327,
+      "DefaultShipTo": true
+    },
+    {
+      "Name": "Ship To 2",
+      "Addr1": "Daniel Wilks",
+      "Addr2": "516 Hampshire Blvd",
+      "City": "East Bayshore",
+      "State": "CA",
+      "PostalCode": 94327,
+      "DefaultShipTo": false
+    }
+  ],
+  "Phone": "415-555-4287",
+  "Email": "dan@samplename.com",
+  "Contact": "Daniel Wilks",
+  "AltContact": "Jeanette Deen",
+  "AdditionalContactRef": [
+    {
+      "ContactName": "Main Phone",
+      "ContactValue": "415-555-4287"
+    },
+    {
+      "ContactName": "Main Email",
+      "ContactValue": "dan@samplename.com"
+    }
+  ],
+  "ContactsRet": [
+    {
+      "ListID": "0000000000000p5T",
+      "TimeCreated": "2012-07-26T08:46:25+05:00",
+      "TimeModified": "2012-07-26T08:46:25+05:00",
+      "EditSequence": 1343274385,
+      "FirstName": "Daniel Wilks"
+    },
+    {
+      "ListID": "0000000000000p5U",
+      "TimeCreated": "2012-07-26T08:46:25+05:00",
+      "TimeModified": "2012-07-26T08:46:25+05:00",
+      "EditSequence": 1343274385,
+      "FirstName": "Jeanette Deen"
+    }
+  ],
+  "CustomerTypeRef": {
+    "ListID": "20000-933272658",
+    "FullName": "Residential"
+  },
+  "TermsRef": {
+    "ListID": "60000-933272660",
+    "FullName": "Net 60"
+  },
+  "Balance": 0,
+  "TotalBalance": 0,
+  "SalesTaxCodeRef": {
+    "ListID": "10000-999022286",
+    "FullName": "Tax"
+  },
+  "ItemSalesTaxRef": {
+    "ListID": "360000-1071521681",
+    "FullName": "E. Bayshore/County"
+  },
+  "JobStatus": "None",
+  "Notes": "02/07/2003: Mr. Wilks called.  Referred by Bryan Ruff.  Wants to have the master bathroom remodeled. Set 02/17/2003 to start work.",
+  "AdditionalNotesRet": {
+    "NoteID": 0,
+    "Date": "2011-07-27",
+    "Note": "02/07/2003: Mr. Wilks called.  Referred by Bryan Ruff.  Wants to have the master bathroom remodeled. Set 02/17/2003 to start work."
+  },
+  "PreferredDeliveryMethod": "Email"
+}
