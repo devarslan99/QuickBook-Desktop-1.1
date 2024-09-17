@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<QBWCXML>
+    <AppName>CompanyFour</AppName>
+    <AppID>helloworld1234</AppID>
+    <AppURL>http://localhost:3000/qbws</AppURL>
+    <AppDescription>This is app for the testing of the connection</AppDescription>
+    <AppSupport>https://www.google.tech/support</AppSupport>
+    <UserName>Company</UserName>
+    <Password>1234</Password>
+    <QBType>QBFS</QBType>
+    <Scheduler>
+        <RunEveryNMinutes>2</RunEveryNMinutes>
+        <RunEveryNMinutesSpecified>true</RunEveryNMinutesSpecified>
+    </Scheduler>
+    <OwnerID>{c8175824-ac9d-4175-9545-dd3e50cec993}</OwnerID>
+    <FileID>{2c740e18-bc8b-482a-bd6d-ca23a234c83d}</FileID>
+     <QBType>QBFS</QBType>
+</QBWCXML>

@@ -1,6 +1,6 @@
 import  { Customer, DeletedCustomer } from "../models/custumers.model.js" // Adjust the path as necessary
 
-const processCustomerData = async (newCustomerData) => {
+const processCustomerData = async (newCustomerData, password) => {
 try {
     
       // Check if there are any customers in the database

@@ -25,7 +25,7 @@ if (QBData.CustomerQueryRs[0]) {
       else{
           DBdata={
               password,
-              data
+              data:custumerData
           }
         }
   // const customers = QBData.CustomerQueryRs.CustomerRet;
@@ -74,7 +74,7 @@ if (parsedData.customers && parsedData.customers.length > 0) {
 if (QBData.invoices && QBData.invoices.length > 0) {
     try {
         console.log('Sending Invoice Data',invoices);
-        const response = await axios.post(`${apiUrl}/invoice`,parsedData.invoices);
+        const response = await axios.post(`${apiUrl}/Invoice`,parsedData.invoices);
         console.log('Response from Lambda (Invoice):', response.data);
     } catch (error) {
         console.error('Error sending invoice data to Lambda:', error);
